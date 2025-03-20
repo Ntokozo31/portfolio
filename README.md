@@ -36,11 +36,11 @@ You can view the live demo of the portfolio [here](https://your-live-demo-link.c
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Ntokozo31/portfolio-2025.git
+    git clone https://github.com/Ntokozo31/portfolio.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd portfolio-2025/portfolio
+    cd portfolio
     ```
 
 ## Usage
