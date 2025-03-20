@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ntokozo - Backend Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-user"></i>
+        <span>Ntokozo</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#development" class="nav-link">Development</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-button">
+          <i class="fas fa-sun"></i>
+          <span class="sr-only">Toggle theme</span>
+        </button>
+        <a href="https://github.com/Ntokozo31" target="_blank" rel="noopener noreferrer" class="icon-button">
+          <i class="fab fa-github"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/ntokozo-dube-090711289/" target="_blank" rel="noopener noreferrer" class="icon-button">
+          <i class="fab fa-linkedin"></i>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+        <a href="#contact" class="button primary-button">Contact Me</a>
+      </div>
+      <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#development" class="mobile-nav-link">Development</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Hi, I'm <span class="primary-text">Ntokozo</span></h1>
+          <p class="hero-description">
+            A passionate Backend Developer with expertise in building robust and scalable server-side applications.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="button primary-button">
+              View My Work
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="button secondary-button">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container section-container text-center">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-description">
+          I specialize in backend development, focusing on creating robust, scalable, and secure applications. With experience in multiple programming languages and frameworks, I strive to optimize performance and efficiency in every project I undertake. My expertise spans databases, APIs, and server-side logic, ensuring smooth and effective application functionality. Passionate about softwere engineering and web development
+        </p>
+        <p class="section-description">
+          When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
+          enjoying outdoor activities. I believe in continuous learning and staying updated with the latest industry
+          trends.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container section-container text-center">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-description">
+          I've worked with a variety of technologies and frameworks to deliver high-quality backend solutions.
+        </p>
+        <div class="skills-grid">
+          <div class="card">
+            <div class="card-content skill-card">
+              <i class="fas fa-code skill-icon"></i>
+              <h3 class="skill-title">Backend</h3>
+              <ul class="skill-list">
+                <li class="skill-tag">Python</li>
+                <li class="skill-tag">Flask</li>
+                <li class="skill-tag">Django</li>
+                <li class="skill-tag">JavaScript</li>
+                <li class="skill-tag">Node.js</li>
+                <li class="skill-tag">Express.js</li>
+                <li class="skill-tag">MySQL</li>
+                <li class="skill-tag">PostgreSQL</li>
+                <li class="skill-tag">MongoDB</li>
+                <li class="skill-tag">Redis</li>
+                <li class="skill-tag">RESTful API</li>
+                <li class="skill-tag">GraphQL API</li>
+                <li class="skill-tag">OAuth2, JWT</li>
+                <li class="skill-tag">SSO (Single Sign-On)</li>
+                <li class="skill-tag">Session management</li>
+                <li class="skill-tag">i18n</li>
+                <li class="skill-tag">Pagination</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content skill-card">
+              <i class="fas fa-code skill-icon"></i>
+              <h3 class="skill-title">Frontend</h3>
+              <ul class="skill-list">
+                <li class="skill-tag">HTML</li>
+                <li class="skill-tag">CSS</li>
+                <li class="skill-tag">JavaScript</li>
+                <li class="skill-tag">Vue.js</li>
+                <li class="skill-tag">Angular.js</li>
+                <li class="skill-tag">TypeScript</li>
+                <li class="skill-tag">BOOTSTRAP</li>
+                <li class="skill-tag">Tailwind CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content skill-card">
+              <i class="fas fa-code skill-icon"></i>
+              <h3 class="skill-title">Tools & Others</h3>
+              <ul class="skill-list">
+                <li class="skill-tag">Git</li>
+                <li class="skill-tag">Github</li>
+                <li class="skill-tag">CI/CD pipelines</li>
+                <li class="skill-tag">Linux (Ubuntu, CentOS)</li>
+                <li class="skill-tag">Web Servers: Nginx, Apache</li>
+                <li class="skill-tag">POSTMAN</li>
+                <li class="skill-tag">cURL</li>
+                <li class="skill-tag">DOCKER</li>
+                <li class="skill-tag">Heroku</li>
+                <li class="skill-tag">Swagger</li>
+                <li class="skill-tag">PyCharm</li>
+                <li class="skill-tag">Visual Studio Code</li>
+                <li class="skill-tag">Version Control</li>
+                <li class="skill-tag">Twilio</li>
+                <li class="skill-tag">OpenSSL</li>
+                <li class="skill-tag">Database Design</li>
+                <li class="skill-tag">Problem Solving</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container section-container text-center">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-description">
+          Check out some of my recent work that showcases my skills and expertise.
+        </p>
+        <div class="tabs">
+          <div class="tab-list">
+            <button class="tab-button active" data-tab="all">All</button>
+            <button class="tab-button" data-tab="backend">Backend</button>
+            <button class="tab-button" data-tab="api">API</button>
+          </div>
+          <div class="tab-content active" id="all-tab">
+            <div class="projects-grid">
+              <div class="card project-card">
+                <div class="project-image-container">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doctor.jpg-AP1u2VA7tyo3XvMYeRBdovvnxQeVT8.jpeg" alt="DocBook" class="project-image">
+                </div>
+                <div class="card-content">
+                  <h3 class="project-title">DocBook</h3>
+                  <p class="project-description">
+                    "Doctor-booking-system" is designed to function as an API for a doctor booking system.
+                    The purpose of this system is to allow users to register, log in, book appointments,
+                    and manage their profiles.
+                    The system simplifies the process of booking appointments with doctors based on their specialties and availability.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Express.js</span>
+                    <span class="project-tag">MongoDB</span>
+                    <span class="project-tag">Email API</span>
+                    <span class="project-tag">Authentication</span>
+                    <span class="project-tag">RESTful API</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Ntokozo31/doctor-booking-system" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                    <a href="https://docbook-demo.com" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-external-link-alt"></i>
+                      Demo
+                    </a>
+                    <a href="https://doctor-booking-system-production.up.railway.app" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-globe"></i>
+                      Live Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card project-card">
+                <div class="project-image-container">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SnapTrack.jpg-jnlmbdlpAcEd5bjhczmW17hVZM5f2W.jpeg" alt="SnapTrack" class="project-image">
+                </div>
+                <div class="card-content">
+                  <h3 class="project-title">SnapTrack</h3>
+                  <p class="project-description">
+                    "Snap-Track" is to create a web application that allows users to find their current location on an interactive map by clicking the "LOCATE ME" button. The project fetches GPS data using JavaScript and displays it on a map, providing a simple and effective way for users to pinpoint their current location.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">Geolocation API</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">RESTful API</span>
+                    <span class="project-tag">Data Visualization</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Ntokozo31/Project-Snap-Track" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                    <a href="https://snaptrack-demo.com" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-external-link-alt"></i>
+                      Demo
+                    </a>
+                    <a href="https://project-snap-track.vercel.app" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-globe"></i>
+                      Live Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>......
+          <div class="tab-content" id="backend-tab">
+            <div class="projects-grid">
+              <div class="card project-card">
+                <div class="project-image-container">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doctor.jpg-AP1u2VA7tyo3XvMYeRBdovvnxQeVT8.jpeg" alt="DocBook" class="project-image">
+                </div>
+                <div class="card-content">
+                  <h3 class="project-title">DocBook</h3>
+                  <p class="project-description">
+                    "Doctor-booking-system" is designed to function as an API for a doctor booking system.
+                    The purpose of this system is to allow users to register, log in, book appointments,
+                    and manage their profiles.
+                    The system simplifies the process of booking appointments with doctors based on their specialties and availability.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Express.js</span>
+                    <span class="project-tag">MongDB</span>
+                    <span class="project-tag">Email API</span>
+                    <span class="project-tag">Authentication</span>
+                    <span class="project-tag">RESTful API</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Ntokozo31/doctor-booking-system" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                    <a href="https://docbook-demo.com" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-external-link-alt"></i>
+                      Demo
+                    </a>
+                    <a href="https://doctor-booking-system-production.up.railway.app" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-globe"></i>
+                      Live Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" id="api-tab">
+            <div class="projects-grid">
+              <div class="card project-card">
+                <div class="project-image-container">
+                  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SnapTrack.jpg-jnlmbdlpAcEd5bjhczmW17hVZM5f2W.jpeg" alt="SnapTrack" class="project-image">
+                </div>
+                <div class="card-content">
+                  <h3 class="project-title">SnapTrack</h3>
+                  <p class="project-description">
+                    SnapTrack is a location-based web application that leverages browser geolocation APIs to provide users with real-time location tracking. Built with Python and Redis for efficient data storage.
+                  </p>
+                  <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Redis</span>
+                    <span class="project-tag">Geolocation API</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">RESTful API</span>
+                    <span class="project-tag">Data Visualization</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/yourusername/snaptrack" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                    <a href="https://snaptrack-demo.com" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-external-link-alt"></i>
+                      Demo
+                    </a>
+                    <a href="https://snaptrack-live.com" target="_blank" rel="noopener noreferrer" class="button outline-button">
+                      <i class="fas fa-globe"></i>
+                      Live Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Development Section -->
+    <section id="development" class="section">
+      <div class="container section-container text-center">
+        <h2 class="section-title">Professional Development</h2>
+        <p class="section-description">
+          My learning journey and skill development path.
+        </p>
+        <div class="development-grid">
+          <div class="card">
+            <div class="card-content development-card">
+              <i class="fas fa-book-open development-icon"></i>
+              <h3 class="development-title">Structured Training Programs</h3>
+              <p class="development-description">
+                Completed comprehensive training programs in backend development fundamentals, advanced Python programming, and database architecture. These structured programs provided a solid foundation of technical knowledge and best practices.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content development-card">
+              <i class="fas fa-award development-icon"></i>
+              <h3 class="development-title">Technical Workshops</h3>
+              <p class="development-description">
+                Participated in specialized workshops on Flask development, database optimization, and RESTful API
+                design. Gained hands-on experience through practical exercises and collaborative projects.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content development-card">
+              <i class="fas fa-lightbulb development-icon"></i>
+              <h3 class="development-title">Project-Based Learning</h3>
+              <p class="development-description">
+                Developed real-world projects to apply theoretical knowledge and gain practical experience. Each
+                project presented unique challenges that helped me grow as a developer and problem-solver.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="development-items">
+          <div class="development-item card">
+            <div class="development-item-header">
+              <div>
+                <h3 class="development-item-title">Backend Development Specialization</h3>
+                <p class="development-item-platform">Online Learning Platform</p>
+              </div>
+              <div class="development-item-period">2022 - 2023</div>
+            </div>
+            <p class="development-item-description">
+              Completed a comprehensive specialization in backend development, covering Python, Flask, database design, API development, and server deployment. Built several projects as part of the curriculum.
+            </p>
+          </div>
+          <div class="development-item card">
+            <div class="development-item-header">
+              <div>
+                <h3 class="development-item-title">Database Management & Optimization</h3>
+                <p class="development-item-platform">Technical Workshop Series</p>
+              </div>
+              <div class="development-item-period">2023</div>
+            </div>
+            <p class="development-item-description">
+              Participated in a series of workshops focused on database design, optimization, and management. Learned advanced SQL techniques and best practices for efficient data storage and retrieval.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container section-container text-center">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-description">
+          Have a project in mind or want to discuss opportunities? Feel free to reach out!
+        </p>
+        <div class="contact-grid">
+          <div class="card">
+            <div class="card-content contact-card">
+              <i class="fas fa-envelope contact-icon"></i>
+              <h3 class="contact-title">Email</h3>
+              <p class="contact-description">
+                The fastest way to get in touch with me is to send me an email.
+              </p>
+              <a href="mailto:your.email@example.com" class="contact-link">dubentokozo45@yahoo.com</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content contact-card">
+              <i class="fab fa-linkedin contact-icon"></i>
+              <h3 class="contact-title">Social Media</h3>
+              <p class="contact-description">
+                You can also connect with me on social media platforms.
+              </p>
+              <div class="contact-social">
+                <a href="https://www.linkedin.com/in/ntokozo-dube-090711289/" target="_blank" rel="noopener noreferrer" class="social-button">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="sr-only">LinkedIn</span>
+                </a>
+                <a href="https://github.com/Ntokozo31" target="_blank" rel="noopener noreferrer" class="social-button">
+                  <i class="fab fa-github"></i>
+                  <span class="sr-only">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <i class="fas fa-user"></i>
+        <span>Ntokozo</span>
+      </div>
+      <p class="footer-copyright">
+        © <span id="current-year"></span> Ntokozo. All rights reserved.
+      </p>
+      <div class="footer-social">
+        <a href="https://github.com/Ntokozo31" target="_blank" rel="noopener noreferrer" class="icon-button">
+          <i class="fab fa-github"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ntokozo-dube-090711289/" target="_blank" rel="noopener noreferrer" class="icon-button">
+          <i class="fab fa-linkedin"></i>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
